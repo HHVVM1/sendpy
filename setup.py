@@ -1,22 +1,14 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="sendpy",
-    version="1.0.0",
+    name="sendspy",
+    version="1.0.2",
     author="JA3FR",
     author_email="hhvvm5@gmail.com",
-    description="مكتبة ارسال لصيد للتلجرام ",
-    long_description=open('README.md', encoding='utf-8').read(),
+    description="مكتبة ارسال رسائل تليجرام بسيطة المطور جعفر  @hhvvm5",
+    long_description="# sendspy\nمكتبة بسيطة",
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/tele-simple",
-    py_modules=["tele"],
-    packages=find_packages(),
+    url="https://github.com/HHVVM1/sendpy",
+    py_modules=["sendspy"],
     install_requires=["requests>=2.25.0"],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    python_requires=">=3.6",
-    keywords="telegram, bot, message, simple, python",
 )
