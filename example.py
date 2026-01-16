@@ -1,5 +1,7 @@
 import sendspy
-t = sendpy.token("token : ")
-i = sendpy.id("id : ")
-msg = "نص الرسالة هنا"
-sendpy.send(msg=msg, id=i, token=t)
+
+t = sendspy.token("token : ")
+i = sendspy.id("id : ")
+msg = "هلو "
+
+sendspy.send(msg=msg, id=i, token=t)
